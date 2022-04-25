@@ -1,0 +1,25 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 15px;
+  width: 250px;
+  height: 356px;
+  transition: transform 0.25s ease-in-out;
+}
+
+.card:hover {
+  transition: transform 0.5s ease-out;
+  transform: scale(1.05);
+}
+
+.card img {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 15px;
+}
